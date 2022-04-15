@@ -1,7 +1,9 @@
 " Disable some Mac hotkeys
 if has("gui_macvim")
     macmenu &File.Print key=<nop>
+    macmenu &File.Close key=<C-w>
     macmenu &File.New\ Tab key=<nop>
+    macmenu &Edit.Find.Use\ Selection\ for\ Find key=<nop>
 endif
 
 " Editor Visuals
@@ -21,17 +23,25 @@ endfunction
 map <D-[> :call NerdToggle()<CR>
 
 " CtrlP
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
-let g:ctrlp_max_files=0 
 unmap <D-p>
 map <D-p> :CtrlP<CR>
 map <D-t> :CtrlP<CR>
 
 " Window splitting / moving
-map <C-t> :tabnew<CR>
-map <D-S-Right> :vsplit<CR>:wincmd l<CR>
-map <D-S-Down> :split<CR>:wincmd j<CR>
-map <D-Right> :wincmd l<CR>
-map <D-Left> :wincmd h<CR>
-map <D-Up> :wincmd k<CR>
-map <D-Down> :wincmd j<CR>
+noremap <silent> <D-w> :close<CR>
+noremap <silent> <C-t> :tabnew<CR>
+noremap <silent> <D-S-Right> :vsplit<CR>:wincmd l<CR>
+noremap <silent> <D-S-Down> :split<CR>:wincmd j<CR>
+noremap <silent> <D-Right> :wincmd l<CR>
+noremap <silent> <D-Left> :wincmd h<CR>
+noremap <silent> <D-Up> :wincmd k<CR>
+noremap <silent> <D-Down> :wincmd j<CR>
+
+" Ack
+map <D-S-f> :Ack 
+
+" NERDCommenter
+map <D-/> <Plug>NERDCommenterToggle
+
+" CoC Related Items
+map <D-e> :CocDiagnostics<CR>
