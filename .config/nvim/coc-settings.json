@@ -1,0 +1,22 @@
+{
+    "coc.preferences.formatOnSaveFiletypes": [
+        "python",
+        "css",
+        "markdown",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "json"
+    ],
+    "codeLens.enable": true,
+    "diagnostic.virtualText": true,
+    "diagnostic.virtualTextCurrentLineOnly": false,
+
+    "python.formatting.provider": "black",
+    "diagnostic.checkCurrentLine": true,
+    "diagnostic.autoRefresh": true,
+    "python.formatting.blackPath": "/opt/homebrew/bin/black",
+    "prettier.requireConfig": false,
+    "prettier.disableLanguages": []
+}
