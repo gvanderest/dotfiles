@@ -4,6 +4,11 @@ theme = "onedark"
 auto-pairs = false
 rulers = [80, 120]
 
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "block"
+
 [keys.normal]
 # Quick iteration on config changes
 C-o = ":config-open"
