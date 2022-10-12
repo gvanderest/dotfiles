@@ -1,0 +1,13 @@
+/*
+!.gitignore
+
+# JavaScript Stuff
+**/node_modules/**
+
+# Configurations
+!/.config
+/.config/*
+
+!/.config/coc
+!/.config/nvim
+!/.config/helix
