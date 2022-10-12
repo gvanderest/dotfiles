@@ -1,5 +1,8 @@
+theme = "onedark"
+
 [editor]
 auto-pairs = false
+rulers = [80, 120]
 
 [keys.normal]
 # Quick iteration on config changes
