@@ -9,6 +9,9 @@ normal = "block"
 insert = "bar"
 select = "block"
 
+[editor.lsp]
+display-messages = true
+
 [keys.normal]
 # Quick iteration on config changes
 C-o = ":config-open"
