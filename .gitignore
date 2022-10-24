@@ -5,6 +5,8 @@
 **/node_modules/**
 
 # Configurations
+!.vimrc
+!.gvimrc
 !/.config
 /.config/*
 
@@ -12,3 +14,4 @@
 !/.config/nvim
 !/.config/helix
 !/.config/iterm2
+
