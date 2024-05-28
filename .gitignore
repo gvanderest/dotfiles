@@ -14,4 +14,7 @@
 !/.config/nvim
 !/.config/helix
 !/.config/iterm2
-
+!/.config/zed
+/.config/zed/.tmp*
+/.config/zed/*.mdb
+/.config/zed/embeddings

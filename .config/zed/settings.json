@@ -1,0 +1,53 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+    "theme": "One Dark Pro",
+    "base_keymap": "VSCode",
+    "telemetry": {
+        "metrics": false,
+        "diagnostics": false
+    },
+    "vim_mode": true,
+    "ui_font_size": 14,
+    "ui_font_family": "Fira Code",
+    "buffer_font_size": 12,
+    "buffer_font_family": "Fira Code",
+    "buffer_font_features": {
+        "calt": false
+    },
+    "ensure_final_newline_on_save": true,
+    "buffer_line_height": "comfortable",
+    "format_on_save": "on",
+    "hour_format": "hour24",
+    "preferred_line_length": 120,
+    "wrap_guides": [120, 150],
+    "tab_size": 4,
+    "use_autoclose": false,
+    "file_scan_exclusions": [
+        "**/.git",
+        "**/.svn",
+        "**/.hg",
+        "**/CVS",
+        "**/.DS_Store",
+        "**/Thumbs.db",
+        "**/.classpath",
+        "**/.settings",
+        "**/node_modules",
+        "build",
+        "release-info",
+        "env"
+    ],
+    "hard_tabs": true,
+    "language_overrides": {
+        "TypeScript": {
+            "tab_size": 4,
+            "hard_tabs": true
+        }
+    }
+}
