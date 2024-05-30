@@ -27,7 +27,6 @@
     "hour_format": "hour24",
     "preferred_line_length": 120,
     "wrap_guides": [120, 150],
-    "tab_size": 4,
     "use_autoclose": false,
     "file_scan_exclusions": [
         "**/.git",
@@ -43,11 +42,6 @@
         "release-info",
         "env"
     ],
-    "hard_tabs": true,
-    "language_overrides": {
-        "TypeScript": {
-            "tab_size": 4,
-            "hard_tabs": true
-        }
-    }
+    "tab_size": 4,
+    "hard_tabs": false
 }
