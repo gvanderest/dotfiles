@@ -18,3 +18,5 @@
 /.config/zed/.tmp*
 /.config/zed/*.mdb
 /.config/zed/embeddings
+
+!.hyper*
