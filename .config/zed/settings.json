@@ -21,6 +21,22 @@
     "buffer_font_features": {
         "calt": false
     },
+    "lsp": {
+        "language_overrides": {
+            "Rust": {
+                "inlay_hints": {
+                    "enabled": true
+                }
+            }
+        },
+        "rust-analyzer": {
+            "initialization_options": {
+                "checkOnSave": {
+                    "command": "clippy"
+                }
+            }
+        }
+    },
     "ensure_final_newline_on_save": true,
     "buffer_line_height": "comfortable",
     "format_on_save": "on",
